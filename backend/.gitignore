@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore the contents of the static directory for the frontend build
+/src/main/resources/static/*
+# Keep the directory itself, but ignore its contents
+!/src/main/resources/static/.gitkeep
